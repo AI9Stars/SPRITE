@@ -1,0 +1,44 @@
+[
+    {
+        "instruction": "If I am standing by the door and facing the vacuum_cleaner, is the christmas_tree to my position front-left, front-right, back-left, or back-right? ",
+        "objects": ["door", "vacuum_cleaner", "christmas_tree"],
+        "objects_category": ["door", "vacuum_cleaner", "christmas_tree"],
+        "category":"object_direction_facing_complex"
+    },
+    {
+        "instruction": "If I am standing by the door and facing the vacuum_cleaner, is the christmas_tree to my position left, right? ",
+        "objects": ["door", "vacuum_cleaner", "christmas_tree"],
+        "objects_category": ["door", "vacuum_cleaner", "christmas_tree"],
+        "category":"object_direction_facing_simple"
+    },
+    {
+        "instruction": "Tell me, what is the order of occurrence of light_switch, stairs, christmas_tree, table in time?", 
+        "objects": ["light_switch", "stairs", "christmas_tree", "table"],
+        "objects_category": ["light_switch", "stairs", "christmas_tree", "table"],
+        "category":"object_appearance_order"
+    },
+    {
+        "instruction": "Measuring from the losest point of each object, which of these objects backpack,box,stairs is the closest to the air_duct?", 
+        "objects": ["backpack", "box", "stairs", "air_duct"],
+        "objects_category": ["backpack", "box", "stairs", "air_duct"],
+        "category":"object_rel_distance"
+    },
+    {
+        "instruction": "What is the length of the longest dimension (length, width, or height) of the vacuum_cleaner, measured  in centimeters?", 
+        "objects": ["vacuum_cleaner"],
+        "objects_category": ["vacuum_cleaner"],
+        "category":"object_size_estimation"
+    },
+    {
+        "instruction": "How many easel(s) are in this room?", 
+        "objects": ["easel"],
+        "objects_category": ["easel"],
+        "category":"object_counting"
+    },
+    {
+        "instruction": "Did the window appear before or after the plant in the sequence?",
+        "objects": ["window","plant"],
+        "objects_category":["window","plant"],
+        "category": "temporal_appearance_sequence"
+    }
+]
