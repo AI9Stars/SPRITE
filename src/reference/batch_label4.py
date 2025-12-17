@@ -4,6 +4,8 @@ import os
 from collections import defaultdict
 import ast
 from tqdm import tqdm
+import argparse
+
 fill2color = {
     0:"green", ### green
     1:"blue", ### blue

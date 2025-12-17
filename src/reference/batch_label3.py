@@ -5,7 +5,7 @@ from model_api import Model_Api
 from tqdm import tqdm
 from multiprocessing import Pool
 # from model import Qwenvl
-
+import argparse
 
 fill2color = {
     0:(0, 255, 0), ### green

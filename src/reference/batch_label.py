@@ -6,7 +6,7 @@ import os
 from collections import defaultdict
 import random 
 from tqdm import tqdm
-import parser
+import argparse
 
 def select_elements_from_list(lst):
     n = len(lst)

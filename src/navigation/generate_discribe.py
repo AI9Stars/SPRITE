@@ -5,7 +5,8 @@ from model import Qwenvl
 from tqdm import tqdm 
 import os 
 import ray
-import parser
+import argparse
+
 
 PROMPT = """
 There is a camera that has carried out a series of movements in three-dimensional space. Now there is a series of pictures taken in chronological order along the path, as well as the general movement trajectory. Please refer to this information and describe the process of the camera from the starting point to the end point in navigation language.

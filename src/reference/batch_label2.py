@@ -4,6 +4,7 @@ from skimage.segmentation import find_boundaries
 import json 
 import os 
 from tqdm import tqdm
+import argparse
 
 fill2color = {
     0:(0, 255, 0), ### green
