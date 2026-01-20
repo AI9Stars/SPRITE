@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-  <a href=敬请期待>
+  <a href=https://arxiv.org/abs/2512.16237>
     <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv Paper">
   </a>
   <a href=敬请期待>
     <img src="https://img.shields.io/badge/Weights-HuggingFace-ffcd00?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Weights">
   </a>
-  <a href=敬请期待>
+  <a href=https://huggingface.co/datasets/zhihelu/SPRITE>
     <img src="https://img.shields.io/badge/Datasets-HuggingFace-ffcd00?style=for-the-badge&logo=huggingface&logoColor=black" alt="Dataset">
   </a>
 </p>
@@ -35,8 +35,8 @@
 
 
 ## 📝 TODO
-- [ ] Release data generation code pipeline
-- [ ] Open source dataset
+- [x] Release data generation code pipeline
+- [x] Open source dataset
 - [ ] Open source model weight
 
 
@@ -107,4 +107,13 @@ SPRITE/
 The specific code descriptions are in their respective directories
 
 ## 🖊️ Citation
-coming soon
+
+```
+@article{helu2025scaling,
+  title={Scaling Spatial Reasoning in MLLMs through Programmatic Data Synthesis},
+  author={Helu, Zhi and Jingjing, Huang and Wang, Xu and Yangbin, Xu and Wanyue, Zhang and Baoyang, Jiang and Shirui, Deng and Liang, Zhu and Fangfang, Li and Tiejun, Zhao and others},
+  journal={arXiv preprint arXiv:2512.16237},
+  year={2025}
+}
+
+```
